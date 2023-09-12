@@ -125,8 +125,9 @@
     line-height: normal;
 }
 
-.section {
+.second-section {
     width: 1440px;
+    padding-bottom: 60px;
 }
 
 .title-section {
@@ -198,4 +199,81 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.sale-off-section {
+    width: 1440px;
+    height: 536px;
+    flex-shrink: 0;
+    background: var(--beige);
+}
+
+.sale-off-product {
+    display: flex;
+    padding-left: 90px;
+    padding-right: 91px;
+}
+
+.sale-off-content {
+    padding-top: 149px;
+    align-items: center;
+    text-align: center;
+}
+
+.content-percentage-off {
+    width: 345px;
+    height: 59px;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--black);
+    align-items: center;
+}
+
+.detail-sale-off {
+    width: 345px;
+    height: 54px;
+    flex-shrink: 0;
+    text-align: center;
+    color: var(--black);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+}
+
+.sale-off-button {
+    padding: 12px 30px;
+    gap: 10px;
+    border-radius: 20px;
+    background: var(--white);
+    border: none;
+}
+
+#purple-crop-blouse {
+    width: 262px;
+    height: 269px;
+    flex-shrink: 0;
+    padding-top: 132px;
+    padding-bottom: 135px;
+}
+
+#black-and-white {
+    width: 189px;
+    height: 299px;
+    flex-shrink: 0;
+    padding-top: 118px;
+    padding-bottom: 119px;
+}
+
+#three-short-pants {
+    width: 459px;
+    height: 259px;
+    flex-shrink: 0;
+    padding-top: 138px;
+    padding-bottom: 139px;
 }
