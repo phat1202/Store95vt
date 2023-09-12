@@ -1,11 +1,14 @@
 .wrapper {
     padding: 0px 0px;
     background: var(--white);
+
+
 }
 
 .header-container {
-    max-width: 1540px;
-    margin: 0 auto;
+    max-width: 1440px;
+
+
 }
 
 .header-top {
@@ -61,6 +64,11 @@
 
 }
 
+.search-tool {
+    max-width: 155px;
+    height: 35px;
+}
+
 .input {
     max-width: 153px;
     height: 33px;
@@ -77,7 +85,7 @@
 
 .header-main {
     background: var(--beige);
-    max-width: 1540px;
+    width: 1440px;
     height: 536px;
 }
 
@@ -112,6 +120,81 @@
 
     font-family: Inter;
     font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section {
+    width: 1440px;
+}
+
+.title-section {
+    width: 446px;
+    height: 58px;
+    color: var(--black);
+    align-items: center;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: normal;
+    padding: 60px 497px;
+}
+
+.card-section {
+    display: flex;
+    gap: 24px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.card {
+    width: 397px;
+    height: 561px;
+    padding-bottom: 36px;
+}
+
+.img-card {
+    width: 397px;
+    height: 496px;
+    background: lightgray 50%, cover no-repeat;
+    padding-bottom: 26px;
+}
+
+.card-description {
+    text-align: center;
+    color: var(--black);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 36px;
+    align-items: center;
+}
+
+.card-button {
+    display: inline-flex;
+    padding: 12px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 304px;
+    padding-left: 239px;
+    padding-right: 239px;
+}
+
+.button {
+    border-radius: 20px;
+    background: var(--beige);
+    border: none;
+    width: 118px;
+    height: 48px;
+}
+
+.product-detail {
+    text-align: center;
+    color: var(--black);
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
