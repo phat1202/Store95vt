@@ -1,10 +1,10 @@
 .wrapper {
     background: var(--white);
-    max-width: 1440px;
+    width: 1440px;
 }
 
 .header-container {
-    width: 1440px;
+
     padding-right: 0px 100px;
 }
 
@@ -86,7 +86,6 @@
 
 .header-main {
     background: var(--beige);
-    width: 1440px;
     height: 536px;
 }
 
@@ -154,7 +153,6 @@
 }
 
 .second-section {
-    width: 1440px;
     padding-bottom: 60px;
 }
 
@@ -230,7 +228,6 @@
 }
 
 .sale-off-section {
-    width: 1440px;
     height: 536px;
     flex-shrink: 0;
     background: var(--beige);
@@ -307,7 +304,6 @@
 }
 
 .third-section {
-    max-width: 1440px;
     padding-top: 60px;
     padding-left: 63px;
     padding-right: 63px;
@@ -649,4 +645,202 @@
 .diamond-icon {
     width: 30px;
     height: 30px;
+}
+
+.feedback-section {
+    flex-shrink: 0;
+    padding-top: 60px;
+    align-items: center;
+}
+
+.feedback-section-title {
+    color: var(--black);
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 537px;
+}
+
+.feedback-section-group-card {
+    width: 1242px;
+    height: 675px;
+    flex-shrink: 0;
+    display: flex;
+    gap: 22px;
+    padding-top: 60px;
+    padding-left: 99px;
+    padding-right: 99px;
+}
+
+.feedback-section-card {
+    width: 398px;
+    height: 631px;
+    flex-shrink: 0;
+    background: var(--beige);
+}
+
+.feedback-section-card-image {
+    width: 329px;
+    height: 410px;
+    padding: 28px 35px 24px 35px;
+}
+
+.feedback-section-card-product {
+    width: 158px;
+    height: 19px;
+    color: var(--black);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 6px;
+}
+
+.feedback-section-card-rate {
+    display: flex;
+    width: 91px;
+    height: 15px;
+    align-items: flex-start;
+    gap: 4px;
+    padding-left: 155px;
+    padding-right: 152px;
+    padding-bottom: 4px;
+}
+
+#star-rate {
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+}
+
+.feedback-section-card-custommername {
+    width: 58px;
+    height: 17px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 179px;
+    padding-right: 179px;
+}
+
+.feedback-section-card-comment {
+    width: 338px;
+    height: 66px;
+    color: #000;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 6px;
+    padding-bottom: 40px;
+}
+
+.footer {
+    width: 1440px;
+    height: 261px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-brand {
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 154px;
+    height: 39px;
+    padding-left: 101px;
+    padding-top: 102px;
+}
+
+#follow-us {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 75px;
+    height: 19px;
+
+}
+
+.footer-social-media {
+    padding-top: 48px;
+}
+
+.footer-logo-menu {
+    display: flex;
+    padding-top: 11px;
+    gap: 6px;
+    padding-right: 563px;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    border-radius: 50%;
+    background: var(--beige);
+    width: 36px;
+    height: 36px;
+
+
+}
+
+.social-logo {
+    width: 20px;
+    height: 20px;
+    padding: 8px 8px;
+}
+
+#youtube-logo {
+    width: 21px;
+    height: 15px;
+    padding: 10px 7px 11px 8px;
+}
+
+.copy-right {
+    height: 49px;
+    background: var(--black);
+}
+
+.copy-right-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+.icon-right {
+    width: 24px;
+    height: 24px;
+}
+
+.title-right {
+    color: var(--white);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
